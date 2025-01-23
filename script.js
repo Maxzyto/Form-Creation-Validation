@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("form");
-  const username = document.getElementById("username");
-  const email = document.getElementById("email");
-  const password = document.getElementById("password");
+  const username = document.getElementById("username") as HTMLInputElement;
+  const email = document.getElementById("email") as HTMLInputElement;
+  const password = document.getElementById("password") as HTMLInputElement;
   const message = document.getElementById("message");
 
   form?.addEventListener("submit", (event) => {

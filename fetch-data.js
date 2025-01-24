@@ -25,6 +25,4 @@ async function fetchUserData(userID) {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  fetchUserData(1);
-});
+document.addEventListener("DOMContentLoaded", fetchUserData);

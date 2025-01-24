@@ -8,6 +8,7 @@ async function fetchUserData(userID) {
 
     if (dataContainer) {
       dataContainer.innerHTML = ``;
+      dataContainer.textContent = `failed to load user data`;
 
       const userList = document.createElement("ul");
 
